@@ -8,6 +8,18 @@ hiera::cmdpath:
   - /opt/puppetlabs/puppet/lib/ruby/vendor_gems/bin
 
 ##
+# CD4PE
+lookup_options:
+  '^cd4pe::db_pass$:
+    convert_to: 'Sensitive'
+ '^cd4pe::root_config::root_password$:
+    convert_to: 'Sensitive'
+ '^cd4pe::root_config::s3_secret_key$:
+    convert_to: 'Sensitive'
+ '^cd4pe::root_config::artifactory_access_token$:
+    convert_to: 'Sensitive'
+
+##
 # Redis
 profile::app::redis::bind: 127.0.0.1
 
