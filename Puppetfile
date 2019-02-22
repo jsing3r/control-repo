@@ -4,7 +4,7 @@ forge "http://forge.puppetlabs.com"
 # Versions should be updated to be the latest at the time you start
 mod 'puppetlabs-acl', '2.0.1'
 mod 'puppetlabs-apache', '2.3.0'
-mod 'puppetlabs-apt', '4.1.0'
+mod 'puppetlabs-apt', '4.4.1'
 mod 'puppetlabs-aws', '2.1.0'
 mod 'puppetlabs-azure', '1.3.1'
 mod 'puppetlabs-bolt_shim', '0.1.1'
@@ -15,7 +15,7 @@ mod 'puppetlabs-ciscopuppet', '1.10.0'
 mod 'puppetlabs-concat', '4.2.1'
 mod 'puppetlabs-device_manager', '2.7.0'
 mod 'puppetlabs-dism', '1.2.0'
-mod 'puppetlabs-docker', :latest
+mod 'puppetlabs-docker', '3.3.0'
 mod 'puppetlabs-dsc', '1.6.0'
 mod 'puppetlabs-exec', '0.3.0'
 mod 'puppetlabs-facter_task', '0.1.3'
